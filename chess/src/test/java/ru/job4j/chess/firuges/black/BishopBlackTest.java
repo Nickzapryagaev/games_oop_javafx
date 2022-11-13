@@ -9,6 +9,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class BishopBlackTest {
+
     @Test
     public void whenPositionCorrect() {
         BishopBlack bb = new BishopBlack(Cell.C8);

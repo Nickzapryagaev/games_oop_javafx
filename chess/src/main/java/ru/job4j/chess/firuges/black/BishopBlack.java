@@ -5,6 +5,7 @@ import ru.job4j.chess.firuges.Cell;
 import ru.job4j.chess.firuges.Figure;
 
 public class BishopBlack implements Figure {
+
     private final Cell position;
 
     public BishopBlack(final Cell ps) {
