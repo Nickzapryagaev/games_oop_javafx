@@ -69,7 +69,7 @@ public final class Chess extends Application {
                         rect.setY(((int) event.getY() / 40) * 40 + 5);
                     } catch (Exception e) {
                         Alert info = new Alert(Alert.AlertType.ERROR);
-                        info.setContentText(e.getClass().getName() +  " "  + e.getMessage());
+                        info.setContentText(e.getClass().getName() + " " + e.getMessage());
                         info.show();
                         rect.setX(((int) momento.getX() / 40) * 40 + 5);
                         rect.setY(((int) momento.getY() / 40) * 40 + 5);
