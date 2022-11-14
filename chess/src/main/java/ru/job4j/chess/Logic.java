@@ -25,7 +25,7 @@ public final class Logic {
     private boolean free(Cell[] steps) throws OccupiedCellException {
         for (Figure figure : figures) {
             for (Cell step : steps) {
-                if (figure.position() == step) {
+                if (figure.position().equals(step)) {
                     throw new OccupiedCellException("Can't move through cell " + step);
                 }
             }
